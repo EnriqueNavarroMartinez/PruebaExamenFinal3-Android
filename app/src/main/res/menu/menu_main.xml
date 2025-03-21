@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+    <item android:id="@+id/action_inicio"
+        android:title="action inicio"
+        android:icon="@android:drawable/ic_menu_add"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom" />
+    <item android:id="@+id/action_api"
+        android:title="action api"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+    <item android:id="@+id/action_room"
+        android:title="action room"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+    <item android:id="@+id/action_room2"
+        android:title="action room 2"
+        android:icon="@android:drawable/ic_menu_search"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom" />
+
+</menu>

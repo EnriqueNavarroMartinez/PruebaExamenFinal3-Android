@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ExamenFinal3</string>
+    <string name="open_drawer">hola\n</string>
+    <string name="close_drawer">adios</string>
+</resources>
